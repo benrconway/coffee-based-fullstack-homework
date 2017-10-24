@@ -1,0 +1,9 @@
+.primary{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.shop-div{
+  width: 300px;
+  border: 1px solid green;
+}

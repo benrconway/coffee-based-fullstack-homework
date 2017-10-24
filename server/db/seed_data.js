@@ -5,10 +5,18 @@ db.dropDatabase();
 db.shops.insert([
   {
     name: "Wellington",
-    longBlack: 2.5
+    address: "33A George Street, Edinburgh EH2 2HN, Scotland",
+    coffeePrices:
+    {
+      longBlack: 2.5
+    }
   },
   {
     name: "Buba Budan",
-    cappuccino: 2.5
+    address:"Arch 12, 17 East Market Street, Edinburgh EH8 8FS, Scotland",
+    coffeePrices:
+    {
+      cappuccino: 2.5
+    }
   }
 ])
